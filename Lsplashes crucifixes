@@ -5,9 +5,6 @@ local Main = Window:NewTab("crucifix")
 
 local MainSection = Main:NewSection("crucifix")
 
-MainSection:NewKeyBind("Toggle UI", "Toggles the UI.", Enum.KeyCode.K, function()
-        Library:ToggleUI()
-end)
 
 MainSection:NewButton("Figure Crucifix", "goofy demogorgan crucifix", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/yPCLyNaZ"))()
