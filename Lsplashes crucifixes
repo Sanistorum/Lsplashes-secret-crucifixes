@@ -1,10 +1,9 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-
 local Window = Library.CreateLib("Lsplashes crucifixes (balls)", "Midnight")
 
 local Main = Window:NewTab("crucifix")
 
-local MainSection = Tab:NewSection("crucifix")
+local MainSection = Main:NewSection("crucifix")
 
 
 MainSection:NewButton("Figure Crucifix", "goofy demogorgan crucifix", function()
