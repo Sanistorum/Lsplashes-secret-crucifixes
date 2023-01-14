@@ -20,11 +20,6 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/ZepsyyCodesLUA/Utilit
 end)
 
 
-MainSection:NewButton("Christmas Guns (READ DESC)", "balls also execute in shop", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/NotTypicalAdmin/ChristmasGuns/main/main"))()
-end)
-
-
 MainSection:NewButton("Lightning Crucifix", "light", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/ZJGqyKJk"))()
 end)
@@ -32,4 +27,9 @@ end)
 
 MainSection:NewButton("Spogebob Crucifix", "SPOGBOB11!!!!", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/aBKM8KuQ"))()
+end)
+
+
+MainSection:NewButton("Halloween Crucifix", "pumpkin.exe", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Mye123/MyeWareHub/main/Halloween%20Crucifix"))()
 end)
