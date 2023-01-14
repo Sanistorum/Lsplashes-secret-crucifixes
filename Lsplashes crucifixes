@@ -21,7 +21,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/NotTypicalAdmin/Chris
 end)
 
 
-MainSection:NewButton("Amogus Crucifix", "dead meme", function()
+MainSection:NewButton("Lightning Crucifix", "light", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/ZJGqyKJk"))()
 end)
 
