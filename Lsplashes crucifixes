@@ -29,3 +29,8 @@ end)
 MainSection:NewButton("Halloween Crucifix", "pumpkin.exe", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Mye123/MyeWareHub/main/Halloween%20Crucifix"))()
 end)
+
+
+MainSection:NewButton("Christmas Crucifix", "santa", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Sanistorum/bruv/main/bruveeev?token=GHSAT0AAAAAAB45R26AVYIYS6NHSZC37SPGY6EINEA"))()
+end)
